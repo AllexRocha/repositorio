@@ -1,5 +1,39 @@
 # DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
 
+## Organização das pastas
+
+Os código das questões estão disponíveis dentro de desafios/src/desafios e os testes em desafios/src/tests
+
+## Como utilizar
+
+Para utilizar os códigos basta ir até o arquivo Main.java e descomentar a linha com o código requerido.
+as entradas são conforme indicados nos exemplos abaixo.
+
+#### Testes unitários com Junit no Eclipse IDE:
+
+1 - Clicar no arquivo de teste desejado
+
+2 - Clicar com o botão direito sobre o código
+
+3 - clicar em Run As e selecionar Junit Test
+
+Os testes foram realizados utilizando critérios inerentes de cada questão. Considerando os requerimentos indicados no arquivo .doc onde constam os desafios propostos.
+
+###### Testes da questão 1
+- No teste da questão 1 foi verificado se o retorno é uma string quadrada, ou seja, que possui a mesma quantidade de pontos tanto verticalmente como horizontalmente.
+- Foi verificado também que não há linha sendo saltada ao final dessa string
+
+###### Testes da questão 2
+- Na questão dois primeiramente foi testado um caso para uma senha válida que passa nos requisitos mínimos
+
+- O outro teste foi feito utilizando uma senha que não possui todos os requisitos mínimos. No caso do teste faltando um caractere especial e uma quantidade mínima de 6 caracteres.
+
+###### Testes da questão 3
+
+- Foi testada o método permutar() ques retorna a permutação de uma palavra indicada. No teste em questão foi indicada a palavra PASTELARIA e verificado se entre as permutações havia RLATSAPEIA que é uma das permutações desta palavra.
+
+- Por fim foi testado o médodo anagrama() que retorna quantos pares de anagramas de substrings existem em uma palavra. Foi utilizada a sequencia indicada no documento "ifailuhkqq" e esperado o retorno dos pares
+[i,i],[q,q],[ifa,fai] .
 
 ## Questão 1
 
@@ -77,18 +111,7 @@ O número de pares de anagramas é 6
 ```
 O programa retorna o número de pares de anagramas para a palavra fornecida e indica também quais são estes pares
 
-## Como utilizar
 
-Para utilizar os códigos basta ir até o arquivo Main.java e descomentar a linha com o código requerido.
-as entradas são conforme exemplificado anteriormente
-
-#### Testes unitários com Junit no Eclipse IDE:
-
-1 - Clicar no arquivo de teste desejado
-
-2 - Clicar com o botão direito sobre o código
-
-3 - clicar em Run As e selecionar Junit Test
 
 ## Observações importantes
 
