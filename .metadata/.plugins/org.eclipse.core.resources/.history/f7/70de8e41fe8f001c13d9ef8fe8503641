@@ -1,0 +1,43 @@
+package desafio;
+
+public class teste {
+	
+	static void permuta(String str){
+		
+	
+       
+}
+	
+	static int fatorial(String str){
+		
+		int acumulador = 1;
+		
+		for(int i = str.length(); i > 0 ; i--) {
+			
+			acumulador *= i; 
+		}
+			
+		return acumulador;
+}
+	
+	public static void main(String[] args) {
+		
+		String s = "ovo";
+		
+		//int tam = s.length();
+		
+		
+		System.out.println(fatorial(s));
+			
+
+		}
+
+
+	
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+package desafio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Questao2Test {
+
+	@Test
+	void testConfereSenha() {
+		
+		Questao2 questao2 = new Questao2();
+		
+		questao2.senha = "Aab@#123";
+		
+		String mensagem = questao2.confereSenha();
+		
+		assertTrue(mensagem.contains("fffffffffff") );
+		
+		
+	}
+
+}

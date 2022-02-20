@@ -1,0 +1,16 @@
+package desafio;
+
+public class Questao3 {
+
+	public static void main(String[] args) {
+		
+		String s = "ifailuhkqq";
+		
+		int tam = s.length();
+		
+		for(int i = 0; i <= tam; i++) {
+			//String c = s.subSequence(i, i);
+		}
+		
+	}
+}

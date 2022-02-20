@@ -1,0 +1,36 @@
+package desafio;
+
+import java.util.Scanner;
+
+public class Questao1 {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o valor de n: ");
+		int n = entrada.nextInt();
+		int i,j;
+		for(i = 0; i < n; i++) {            // Laço vertical
+			
+			for(j=n; j>= 0; j--) {
+				
+				if((i-j) >= 0) {
+					System.out.print("*");   #laço horizontal
+				}
+				else {
+					System.out.print(" ");
+				}
+				
+			}
+			if(i < n-1) {
+				System.out.println("\n");
+			}
+			
+		}
+		
+	}
+
+}

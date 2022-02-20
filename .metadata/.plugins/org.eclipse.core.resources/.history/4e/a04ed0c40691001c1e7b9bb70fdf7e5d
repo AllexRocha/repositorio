@@ -1,0 +1,19 @@
+package desafio;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Questao1 q1 = new Questao1();
+		
+		//q1.npontos = 8;
+		String degrau = q1.geraDegrau();
+		
+		//System.out.println(degrau.length() - (q1.npontos-1));
+		
+		System.out.print(degrau.substring(degrau.length()));
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package desafio;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Questao2 q2 = new Questao2();
+		
+		q2.senha = "Aae34";
+		
+		q2.confereSenha();
+		
+	}
+
+}

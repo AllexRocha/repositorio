@@ -1,0 +1,21 @@
+package desafio;
+
+import java.util.Scanner;
+
+public class Questao2 {
+
+		public static void main(String[] args) {
+			
+			Scanner entrada = new Scanner(System.in);
+			
+			System.out.print("Digite a senha: ");
+			String senha = entrada.next();
+			
+			int tamanho = senha.length();
+			
+			if(tamanho < 6) 
+				System.out.printf("A senha não é segura, digite mais %d caracteres", 6 - tamanho);
+			
+			
+		}
+}

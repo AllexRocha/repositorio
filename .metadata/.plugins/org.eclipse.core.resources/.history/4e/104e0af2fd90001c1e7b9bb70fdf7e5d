@@ -1,0 +1,15 @@
+package desafio;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Questao1 q1 = new Questao1();
+		
+		String s = q1.geraDegrau();
+		
+		System.out.printf("\n%s",s);
+	}
+
+}

@@ -1,0 +1,15 @@
+package desafio;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Questao3 q2 = new Questao3();
+		
+		q2.palavra = "pastelaria";
+		q2.anagrama();
+		
+	}
+
+}

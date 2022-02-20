@@ -1,0 +1,14 @@
+package desafio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Questao1Test {
+
+	@Test
+	void testGeraDegrau() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,14 @@
+package desafio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DesafioTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

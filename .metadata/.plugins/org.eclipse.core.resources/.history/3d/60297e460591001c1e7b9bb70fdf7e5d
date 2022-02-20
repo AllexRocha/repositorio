@@ -1,0 +1,44 @@
+package desafio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Questao1Test {
+
+	@Test
+	void testGeraDegrau1() {
+		
+		Questao1 questao1 = new Questao1();
+		
+		int resultadoEsperado_1 = 64;
+		
+		questao1.npontos = 8;
+		
+		String degrau = questao1.geraDegrau();
+		
+		int resultado = degrau.length();
+		
+		assertTrue((resultado - (questao1.npontos -1)) == resultadoEsperado_1);
+	
+		assertTrue(((degrau.substring(degrau.length())) != "\n"));
+	}
+	
+	@Test
+	void testGeraDegrau2() {
+		
+		Questao1 questao1 = new Questao1();
+		
+		int resultadoEsperado_1 = 64;
+		
+		questao1.npontos = 8;
+		
+		String degrau = questao1.geraDegrau();
+		
+		int resultado = degrau.length();
+	
+		assertTrue(((degrau.substring(degrau.length())) != "\n"));
+	}
+
+
+}

@@ -1,0 +1,29 @@
+package desafio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Questao3Test {
+
+	@Test
+	void testPermutar() {
+		Questao3 questao3 = new Questao3();
+		
+		
+		String vetor[]= {"ABCD","ABDC","ADCB","ADBC","ACBD","ACDB","BACD"
+						,"BADC","BCAD","BCDA","BDAC","BDCA","CABD","CADB"
+						,"CDAB","CDBA","CBAD","CBDA","DABC","DACB","DBAC",
+						 "DBCA","DCAB","DCBA"};
+		
+	
+		
+		assertTrue(questao3.permutar("ABCD").contains(vetor));
+	}
+
+//	@Test
+//	void testAnagrama() {
+//		fail("Not yet implemented");
+//	}
+
+}

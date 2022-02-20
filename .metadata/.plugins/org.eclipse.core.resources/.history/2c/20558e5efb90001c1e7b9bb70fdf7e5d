@@ -1,0 +1,49 @@
+package desafio;
+
+import java.util.Scanner;
+
+public class Questao11 {
+	
+	private int npontos;
+	
+	
+	public void geraDegrau() {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o valor de n: ");
+		
+		npontos = entrada.nextInt();
+		
+		String vetor[][] = new String[npontos][npontos];
+		
+		for(int i = 0; i < npontos; i++) {            
+			
+			for(int j=npontos - 1; j>= 0; j--) {			
+				
+				if((i-j) >= 0) {
+					vetor[i][j] = "*";   
+				}
+				else {
+					vetor[i][j] = " ";
+				}
+				
+				if(i < npontos-1) {
+					vetor[i][j] = "\n";;
+				}
+			}
+			
+
+			
+		}
+		entrada.close();
+		
+		for(int i = 0; i < npontos; i++) {            
+			
+			for(int j=npontos - 1; j>= 0; j--) {			
+				
+				System.out.println(vetor[i][j]);
+			}
+		}
+	}
+
+}
