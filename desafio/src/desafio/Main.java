@@ -10,9 +10,9 @@ public class Main {
 		
 		questao1.geraDegrau();
 		
-		questao2.confereSenha();
+		//questao2.confereSenha();
 		
-		questao3.anagrama();
+		//questao3.anagrama();
 		
 	}
 
